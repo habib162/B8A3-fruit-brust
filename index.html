@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
     <title>Fruit Brust</title>
     <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -73,7 +74,7 @@
                 <div class="navbar-end">
                     <input type="text" placeholder="Search here"
                         class="input w-[400px] rounded-[50px] border-none mr-12 hidden lg:block relative" /> <i
-                        class="fa-solid fa-magnifying-glass mr-20 text-black absolute"></i>
+                        class="fa-solid fa-magnifying-glass mr-20 text-black absolute hidden lg:block"></i>
                 </div>
             </div>
         </nav>
@@ -360,78 +361,80 @@
                 </form>
             </dialog>
         </section>
-
         <!-- Meet the team member -->
         <section class="container mx-auto text-center">
-            <div class="min-h-screen lg:min-h-[690px] lg:max-w-full w-full rounded-lg bg-[#030101]"
+            <div class="hero min-h-screen lg:min-h-[690px] w-auto rounded-lg bg-[#030101]"
                 style="background-image: url('./images/team.png');">
-                <div class="text-center my-16"><br><br>
-                    <h1 class="mb-5 mt-6 text-5xl text-white font-extrabold">Meet the team section</h1>
-                    <p class="mb-5 text-base text-white">Contrary to popular belief, is not simply random text. It has
-                        roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
-                    </p>
-                </div>
-                <div class="flex flex-col justify-around lg:flex-row md:flex-row-2 lg:mx-[240px]">
-                    <div class="card lg:w-auto w-full">
-                        <figure class="px-10 pt-10">
-                            <img src="images/member1.png" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <div>
-                                <h2 class="card-title text-2xl text-white">Awlad Hossain</h2><br>
-                                <p class="text-base text-white">Fruits Expert</p>
-                                <div class="text-primary-color text-3xl">
-                                    <i class="fa-brands fa-facebook"></i>
-                                    <i class="fa-brands fa-linkedin"></i>
-                                    <i class="fa-brands fa-square-twitter"></i>
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div>
+                    <div class="text-center mt-20">
+                        <h1 class="mb-5 mt-6 text-5xl text-white font-extrabold">Meet the team section</h1>
+                        <p class="mb-5 text-base text-white">Contrary to popular belief, is not simply random text. It has
+                            roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
+                        </p>
+                    </div>
+                    <div class="flex flex-col justify-around lg:flex-row md:flex-row-2 lg:mx-[240px]">
+                        <div class="card lg:w-auto w-full">
+                            <figure class="px-10 pt-10">
+                                <img src="images/member1.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <div>
+                                    <h2 class="card-title text-2xl text-white">Awlad Hossain</h2><br>
+                                    <p class="text-base text-white">Fruits Expert</p>
+                                    <div class="text-primary-color text-3xl">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                        <i class="fa-brands fa-square-twitter"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card lg:w-auto w-full">
-                        <figure class="px-10 pt-10">
-                            <img src="images/member2.png" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <div>
-                                <h2 class="card-title text-2xl text-white">Awlad Hossain</h2><br>
-                                <p class="text-base text-white">Fruits Expert</p>
-                                <div class="text-primary-color text-3xl">
-                                    <i class="fa-brands fa-facebook"></i>
-                                    <i class="fa-brands fa-linkedin"></i>
-                                    <i class="fa-brands fa-square-twitter"></i>
+                        <div class="card lg:w-auto w-full">
+                            <figure class="px-10 pt-10">
+                                <img src="images/member2.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <div>
+                                    <h2 class="card-title text-2xl text-white">Safia Chowdhury</h2><br>
+                                    <p class="text-base text-white">Fruits Expert</p>
+                                    <div class="text-primary-color text-3xl">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                        <i class="fa-brands fa-square-twitter"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card lg:w-auto w-full">
-                        <figure class="px-10 pt-10">
-                            <img src="images/member3.png" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <div>
-                                <h2 class="card-title text-2xl text-white">Awlad Hossain</h2><br>
-                                <p class="text-base text-white">Fruits Expert</p>
-                                <div class="text-primary-color text-3xl">
-                                    <i class="fa-brands fa-facebook"></i>
-                                    <i class="fa-brands fa-linkedin"></i>
-                                    <i class="fa-brands fa-square-twitter"></i>
+                        <div class="card lg:w-auto w-full">
+                            <figure class="px-10 pt-10">
+                                <img src="images/member3.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <div>
+                                    <h2 class="card-title text-2xl text-white">Rokib Hossain</h2><br>
+                                    <p class="text-base text-white">Fruits Expert</p>
+                                    <div class="text-primary-color text-3xl">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                        <i class="fa-brands fa-square-twitter"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card lg:w-auto w-full">
-                        <figure class="px-10 pt-10">
-                            <img src="images/member4.png" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <div>
-                                <h2 class="card-title text-2xl text-white">Awlad Hossain</h2><br>
-                                <p class="text-base text-white">Fruits Expert</p>
-                                <div class="text-primary-color text-3xl">
-                                    <i class="fa-brands fa-facebook"></i>
-                                    <i class="fa-brands fa-linkedin"></i>
-                                    <i class="fa-brands fa-square-twitter"></i>
+                        <div class="card lg:w-auto w-full">
+                            <figure class="px-10 pt-10">
+                                <img src="images/member4.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <div>
+                                    <h2 class="card-title text-2xl text-white">Chaity</h2><br>
+                                    <p class="text-base text-white">Fruits Expert</p>
+                                    <div class="text-primary-color text-3xl gap-5">
+                                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -579,12 +582,20 @@
         </section>
         <br><br><br><b></b>
     </main>
-    <footer class="footer footer-center p-10 bg-black text-primary-content">
+    <footer class="footer footer-center p-10 bg-black text-primary-content w-full">
         <div>
             <div class="flex">
                 <img src="images/logo.png" class="h-14" alt="">
                 <a class="btn btn-ghost normal-case text-3xl text-white">Fruit Burst</a>
             </div>
+            <ul class="menu menu-horizontal flex justify-center px-1">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+                <li><a>Support</a></li>
+                <li><a>My Accounts</a></li>
+            </ul>
         </div> 
         <div>
           <div class="grid grid-flow-col gap-4">
